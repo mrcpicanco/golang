@@ -44,3 +44,8 @@ Introdução à linguagem Go
 ## Palavras Reservadas
 * São componentes da própria linguagem e não podem ser redefinidas, ou seja, denominar elementos criados pelo programador.
 * Exemplo: _CONST_, palavra reservada para indicar uma constante, não pode ser usada para quaisquer outro identificador no programa.
+### Go possui 25 palavras reservadas
+| break   | case     | chan       | func    | if       | interface | return | type      | var      | 
+|  :---:  |  :----:  |  :---:     | :---:   | :---:    |  :---:    | :---:  | :---:     | :---:    |
+| const   | default  |fallthrough | go      |  if      | package   | struct |  map      |          |
+| continue| else     | for        | goto    |  import  | range     | switch | select    |          |
