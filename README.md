@@ -23,3 +23,24 @@ Introdução à linguagem Go
 * TEm tamanho definido
 * Tipos ponto flutuante em go: float32, float64
 * Em geral, usamos float64
+
+## Tipo String
+* representa um texto que é uma sequência de caracteres
+* possui tamanho definido
+* aparece entre "" ou ``
+ ### Operações comuns com Strings
+ * Len("Hello World") - Descobre o tamanho da String
+ * "Hello World"[2] - Acrescenta um caractres específico
+ * "Hello" + "World" - Concatena duas Strings
+
+## Booleanos
+* Homenagem ao matemático George Boole
+* Representa verdadeiro ou falso (ligado ou desligado)
+* Operadores lógicos: &&(e), ||(ou) !(negação)
+
+## Inferência de Tipos
+* Go consegue inferir(decifrar) o tipo dessas variáveis. Ele consegue entender que, se a variável começa e termina com as aspas, ela é uma string. Da mesma forma, se temos um número inteiro, sem casa decimal, A linguagem GO entenderá que a variável é do tipo inteiro.
+
+## Palavras Reservadas
+* São componentes da própria linguagem e não podem ser redefinidas, ou seja, denominar elementos criados pelo programador.
+* Exemplo: _CONST_, palavra reservada para indicar uma constante, não pode ser usada para quaisquer outro identificador no programa.
