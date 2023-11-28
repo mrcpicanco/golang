@@ -11,6 +11,7 @@ Quais empresas usam go lang?
 - Empresa 1
 - Empresa 2
 
+# PARTE 1
 
 ## O que são tipos?
 * Usa-se um Tipo (String) para escrever nosso Hello World!
@@ -96,3 +97,23 @@ Pode ser chamado de tabelas hash, arrays associativos ou dicionários.
 
 ## Parâmetros
 * É um valor, proveniente de uma variável ou de uma expressão mais complexa, que pode ser passado para uma função (sub-rotina), que utiliza os valores atribuídos aos parâmetros para alterar o seu comportamento em tempo de execução.
+## Objetos e Classes
+* Go não tem objetos e classes, porém tem estrutura e funções que simulam ambas em outras linguagens
+### Estrutura
+* Guarda apenas estado e não tem comportamento
+## Sistemas de tipos
+* É um conjunto de regras que atribuem uma propriedade chamada de tipo para as várias construções - tais como variáveis, expressões, funções - que um programa de computador é composto.
+## Interfaces e exceções
+* Uma interface define um comportamento de um tipo;
+* Go não possui exceções;
+
+# PARTE 2
+
+## Trabalhando com variáveis, valores e tipos em GO
+### Objetivo Geral
+* Conseguir escrever programas com variáveis em Go e ser capaz de ler e interpretar códigos, intermediários.
+
+## Declaração, inicialização e atribuição
+* Variável: local que armazena uma informação;
+* forma: var(palavra reservada) + nome(indentificação) + string(tipo) = expressão
+* Principais declarações: var, const, type, func.
