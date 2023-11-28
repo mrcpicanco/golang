@@ -1,5 +1,16 @@
 # Go lang
+
+![Logo](https://blog.mgechev.com/images/revive/revive.png)
+
 Introdução à linguagem Go
+
+## Usada por
+
+Quais empresas usam go lang?
+
+- Empresa 1
+- Empresa 2
+
 
 ## O que são tipos?
 * Usa-se um Tipo (String) para escrever nosso Hello World!
@@ -49,3 +60,39 @@ Introdução à linguagem Go
 |  :---:  |  :----:  |  :---:     | :---:   | :---:    |  :---:    | :---:  | :---:     | :---:    |
 | const   | default  |fallthrough | go      |  if      | package   | struct |  map      |          |
 | continue| else     | for        | goto    |  import  | range     | switch | select    |          |
+
+## Expressões e Comandos
+* São comandos(informações) fornecidas em forma de código para que o programa execute uma determinada função.
+* Comando de repetição: for
+* Comando de atribuição: :=
+* Comando de declaração: var
+* Comando de condicionais: if, switch
+
+## Variável
+* Área de armazenamento de um TIPO específico 
+* Tem um nome associado
+
+## Blocos e escopos
+### Blocos
+* São as unidades fundamentais e podem representar comandos, condições, objetos e muitas outras variáveis que fazem parte da construção de um programa.
+### Escopos
+* é a acessibilidade de objetos, variáveis e funções em diferentes partes do código. Em outras palavras, o que determina quais são os dados que podem ser acessados em uma determinada parte do código é o ESCOPO.
+
+## Arrays, Fatias e Mapas
+### Arrays
+* Sequência numerada;
+* Tem um único TIPO;
+* Tamanho Fixo;
+### Farias
+* é uma parte (fatia) do Array;
+* Tem um único TIPO;
+* Tamanho variável
+### Mapa
+* Busca um valor de acordo com a palavra associada;
+Pode ser chamado de tabelas hash, arrays associativos ou dicionários.
+
+## Abstrações
+* Consiste em esconder os detalhes de algo, no caso, os detalhes desnecessários
+
+## Parâmetros
+* É um valor, proveniente de uma variável ou de uma expressão mais complexa, que pode ser passado para uma função (sub-rotina), que utiliza os valores atribuídos aos parâmetros para alterar o seu comportamento em tempo de execução.
