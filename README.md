@@ -154,3 +154,51 @@ func main() {
 ```
 	fmt.Printlf("A temperatura de ebulição da água em F é: ", e a )
 ```
+
+## Explorando Tipos
+### Exemplos de tipos
+* Primitivos (básicos): int, float, string, bool
+* Compostos (criados pelo usuário): arrays, fatia, struct, mapas.
+
+
+```
+package main
+
+import "fmt"
+
+var x int
+
+func main() {
+	//x = 10
+	x = 10.1
+	fmt.Println("x=", x)
+}
+
+A var x é declarada como int e depois ao tentar mudá-la para float aparecerá a seguinte mensagem no terminal:
+
+cannot use 10.1 (untyped float constant) as int value in assignment (truncated)
+
+```
+
+## E como descobrir o tipo de um dado?
+
+* no _Printlf_ basta usar o ,%T antes da variável.
+
+
+## Conversão de Tipos
+* Uma conversão altera o _tipo_ de uma expressão para o tipo especificado pela conversão T(v)
+```
+package main
+
+import "fmt"
+
+var a int = 20
+var b string = "Nome"
+
+func main() {
+
+	var c float64 = float64(a)
+	fmt.Println("O valor de C é: e o valor de B é: ", c, b)
+}
+
+```
