@@ -202,3 +202,9 @@ func main() {
 }
 
 ```
+
+## Pacote FMT
+* Grupo 1: func Print / Printf/ Println
+* Grupo 2: func Sprint / Sprintf / Srpintln
+* Grupo 3: func Fprint/ Fprintf / Fprintln
+
