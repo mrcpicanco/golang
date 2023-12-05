@@ -117,3 +117,40 @@ Pode ser chamado de tabelas hash, arrays associativos ou dicionários.
 * Variável: local que armazena uma informação;
 * forma: var(palavra reservada) + nome(indentificação) + string(tipo) = expressão
 * Principais declarações: var, const, type, func.
+
+## Operador curto
+* = para atribuir valores a variáveis já existentes
+* gopher := utilizado para criar novas variáveis, dentro de code blocks.
+
+```
+package main
+
+import "fmt"
+
+const ebulicaoF float64 = 212.0 //Fora do code block
+
+func main() {
+	tempF := ebulicaoF            //dentro do code block
+	tempC := (tempF - 32) * 5 / 9 //dentro do code block
+	fmt.Println("A temperatura de ebulição da água em F é: ", tempF)
+	fmt.Println("A temperatura de ebulição da água em graus celsius é:", tempC)
+}
+
+
+```
+
+## Println _versus_ Printf
+* println = imprime a linha
+
+```
+	fmt.Println("A temperatura de ebulição da água em F é: ", tempF)
+	fmt.Println("A temperatura de ebulição da água em graus celsius é:", tempC)
+
+```
+
+
+* printf = imprime um bloco
+
+```
+	fmt.Printlf("A temperatura de ebulição da água em F é: ", e a )
+```
